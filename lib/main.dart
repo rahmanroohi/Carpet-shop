@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screen/Master.dart';
+import 'screen/Splash.dart';
 
-void main() => runApp(MaterialApp(home: M_start()));
+void main() =>
+    runApp(MaterialApp(home: MyApp(), debugShowCheckedModeBanner: false));
